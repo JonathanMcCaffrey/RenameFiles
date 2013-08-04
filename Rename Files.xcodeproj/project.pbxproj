@@ -12,13 +12,13 @@
 		C9D48F0717AEE7DA006A6E08 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D48F0617AEE7DA006A6E08 /* CoreGraphics.framework */; };
 		C9D48F0D17AEE7DA006A6E08 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9D48F0B17AEE7DA006A6E08 /* InfoPlist.strings */; };
 		C9D48F0F17AEE7DA006A6E08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D48F0E17AEE7DA006A6E08 /* main.m */; };
-		C9D48F1317AEE7DA006A6E08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D48F1217AEE7DA006A6E08 /* AppDelegate.m */; };
+		C9D48F1317AEE7DA006A6E08 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = C9D48F1217AEE7DA006A6E08 /* AppDelegate.mm */; };
 		C9D48F1517AEE7DA006A6E08 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C9D48F1417AEE7DA006A6E08 /* Default.png */; };
 		C9D48F1717AEE7DA006A6E08 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9D48F1617AEE7DA006A6E08 /* Default@2x.png */; };
 		C9D48F1917AEE7DA006A6E08 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9D48F1817AEE7DA006A6E08 /* Default-568h@2x.png */; };
 		C9D48F1C17AEE7DA006A6E08 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9D48F1A17AEE7DA006A6E08 /* MainStoryboard_iPhone.storyboard */; };
 		C9D48F1F17AEE7DA006A6E08 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9D48F1D17AEE7DA006A6E08 /* MainStoryboard_iPad.storyboard */; };
-		C9D48F2217AEE7DA006A6E08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D48F2117AEE7DA006A6E08 /* ViewController.m */; };
+		C9D48F2217AEE7DA006A6E08 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = C9D48F2117AEE7DA006A6E08 /* ViewController.mm */; };
 		C9D48F2A17AEE7DB006A6E08 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D48F2917AEE7DB006A6E08 /* SenTestingKit.framework */; };
 		C9D48F2B17AEE7DB006A6E08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D48F0217AEE7DA006A6E08 /* UIKit.framework */; };
 		C9D48F2C17AEE7DB006A6E08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D48F0417AEE7DA006A6E08 /* Foundation.framework */; };
@@ -46,14 +46,14 @@
 		C9D48F0E17AEE7DA006A6E08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C9D48F1017AEE7DA006A6E08 /* Rename Files-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rename Files-Prefix.pch"; sourceTree = "<group>"; };
 		C9D48F1117AEE7DA006A6E08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C9D48F1217AEE7DA006A6E08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C9D48F1217AEE7DA006A6E08 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		C9D48F1417AEE7DA006A6E08 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C9D48F1617AEE7DA006A6E08 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C9D48F1817AEE7DA006A6E08 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C9D48F1B17AEE7DA006A6E08 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		C9D48F1E17AEE7DA006A6E08 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		C9D48F2017AEE7DA006A6E08 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C9D48F2117AEE7DA006A6E08 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C9D48F2117AEE7DA006A6E08 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		C9D48F2817AEE7DB006A6E08 /* Rename FilesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rename FilesTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9D48F2917AEE7DB006A6E08 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		C9D48F3117AEE7DB006A6E08 /* Rename FilesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rename FilesTests-Info.plist"; sourceTree = "<group>"; };
@@ -120,11 +120,11 @@
 			isa = PBXGroup;
 			children = (
 				C9D48F1117AEE7DA006A6E08 /* AppDelegate.h */,
-				C9D48F1217AEE7DA006A6E08 /* AppDelegate.m */,
+				C9D48F1217AEE7DA006A6E08 /* AppDelegate.mm */,
 				C9D48F1A17AEE7DA006A6E08 /* MainStoryboard_iPhone.storyboard */,
 				C9D48F1D17AEE7DA006A6E08 /* MainStoryboard_iPad.storyboard */,
 				C9D48F2017AEE7DA006A6E08 /* ViewController.h */,
-				C9D48F2117AEE7DA006A6E08 /* ViewController.m */,
+				C9D48F2117AEE7DA006A6E08 /* ViewController.mm */,
 				C9D48F0917AEE7DA006A6E08 /* Supporting Files */,
 			);
 			path = "Rename Files";
@@ -275,8 +275,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9D48F0F17AEE7DA006A6E08 /* main.m in Sources */,
-				C9D48F1317AEE7DA006A6E08 /* AppDelegate.m in Sources */,
-				C9D48F2217AEE7DA006A6E08 /* ViewController.m in Sources */,
+				C9D48F1317AEE7DA006A6E08 /* AppDelegate.mm in Sources */,
+				C9D48F2217AEE7DA006A6E08 /* ViewController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +395,7 @@
 		C9D48F3B17AEE7DB006A6E08 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Rename Files/Rename Files-Prefix.pch";
 				INFOPLIST_FILE = "Rename Files/Rename Files-Info.plist";
@@ -406,6 +407,7 @@
 		C9D48F3C17AEE7DB006A6E08 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Rename Files/Rename Files-Prefix.pch";
 				INFOPLIST_FILE = "Rename Files/Rename Files-Info.plist";
